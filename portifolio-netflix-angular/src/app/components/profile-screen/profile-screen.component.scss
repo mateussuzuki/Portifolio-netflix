@@ -10,19 +10,34 @@
 
 .profile-picture {
   width: 20vh;
+  border-radius: 6px;
+}
+
+.profileAdd {
+  display: flex;
+  justify-content: center;
+}
+
+.profileAddP {
+  margin-top: 16px;
+}
+
+.iconMore {
+  height: 192.52px;
+  margin-top: 25px;
 }
 
 a {
   text-decoration: none;
-
 }
 
 h5 {
-  background-color: var(--white);
-  color: var(--background-gray);
+  color: var(--icons-gray);
   display: flex;
   justify-content: center;
-  font-size: 1em;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-weight: bolder;
 }
 
 p {
@@ -31,12 +46,8 @@ p {
   color: var(--icons-gray);
 }
 
-.margin {
-  margin: 52px 0px;
-}
-
 .hoverAnimation {
-  transition: 0.5s all ease-in-out;
+  transition: 0.2s all ease-in-out;
 }
 
 .hoverAnimation:hover {
@@ -44,9 +55,9 @@ p {
 }
 
 p {
-  transition: 0.5 all ease-in-out;
+  transition: 0.2 all ease-in-out;
 }
 
-.hoverAnimation:hover > p {
+.hoverAnimation:hover > h5 {
   color: var(--white);
 }
