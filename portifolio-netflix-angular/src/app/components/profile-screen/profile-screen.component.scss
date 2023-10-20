@@ -22,6 +22,10 @@
   margin-top: 16px;
 }
 
+.hoverAnimation:hover > .profileAddP {
+  color: var(--white);
+}
+
 .iconMore {
   height: 192.52px;
   margin-top: 25px;
